@@ -1,0 +1,25 @@
+/* navbar & banner section responsive starts here */
+@media only screen and (max-width: 992px) {
+
+    nav {
+        flex-direction: column;
+        min-height: 300px;
+    }
+
+    .navigation {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+
+    .banner-left {
+        padding: 70px 0px;
+    }
+}
+
+/* navbar & banner section responsive ends here */
